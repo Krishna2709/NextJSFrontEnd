@@ -1,0 +1,851 @@
+.left-column h2,
+.right-column h2 {
+  color: black;
+  font-size: large;
+}
+
+* {
+  font-family: "Georgia", serif !important;
+}
+
+/*end of both navbar*/
+/* Ensure the main content starts below the second navbar */
+.main-content {
+  padding: 0px;
+  flex-grow: 1;
+  margin-top: 120px; /* Adjust as needed */
+  display: flex; /* Make main-content a flex container */
+  flex-direction: column; /* Or row if you want items inside to flow horizontally */
+}
+
+/* Title and Divider */
+.main-content h1 {
+  font-size: 19px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.main-content h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.divider {
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.two-column-layout {
+  display: flex; /* Make two-column-layout a flex container */
+  flex-direction: row; /* Arrange columns horizontally */
+  gap: 0px;
+  width: 100%; /* Or a specific width if you want */
+  height: 300px;
+  /* background: white; */
+}
+.left-column {
+  flex: 0 0 500px; /* Don't grow, don't shrink, fixed width */
+  max-width: 870px; /* Maximum width */
+  min-width: 570px; /* Minimum width */
+}
+html {
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+}
+
+.left-column .column-content {
+  background: #F0F7EE;
+  padding: 20px 25px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  flex-grow: 1; /* Fill available vertical space */
+  height: 230px; /* Ensure it stretches fully in height */
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  font-family: "Georgia", serif;
+  margin: 0 25px; /* Symmetrical margins */
+}
+.chat-message {
+  font-family: "Georgia", serif !important;
+  padding: 0px 0;
+  display: block;
+  box-sizing: border-box;
+  color: black; /* Or your preferred color */
+  white-space: pre-wrap; /* Allow text to wrap */
+  word-wrap: break-word; /* Break words if necessary */
+  overflow-wrap: break-word; /* Alternative for older browsers */
+  hyphens: auto; /* Add hyphens for better wrapping (optional) */
+  border-right: none; /* Remove the blinking cursor */
+  width: 100%; /* or max-width: 100% if you want it to respect the container */
+  margin-bottom: 0px; /* Add some space below */
+  margin-top: 20px;
+  color:black;
+  text-align: center;
+  margin: 20px 0 0 0; /* Simplified margin */
+  font-size: 16px !important;
+}
+
+/* Grid container */
+.company-grid-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 15px;
+  padding: 30px 55px;
+  background-color:white;
+  height: 250px;
+  font-size: 16px;
+  margin-top: 0%;
+}
+
+.result-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.result-item:last-child {
+  border-bottom: none; /* Remove border for the last item */
+}
+
+.result-item div {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.result-item strong {
+  font-weight: bold;
+  color: #333;
+}
+
+.left-column,
+.right-column {
+  flex: 1; 
+}
+
+.left-column h2,
+.right-column h2 {
+  margin-bottom: 10px; /* Space below headers */
+  margin-top: 10px;
+  margin-left: 25px; /* Align with content */
+}
+
+/* Column content styling */
+.column-content {
+  padding: 20px 20px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  flex-grow: 1.5;
+  margin-bottom: 40px;
+  margin-left: 25px;
+  margin-right: 25px;
+  /* height: 10px; */
+  height:230px;
+  background: #F0F7EE;  
+  /* Grey background for content */
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Divider below search and summary container */
+.search-summary-divider {
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+  /* margin-top: 30px; */
+}
+
+.view-results-button:hover {
+  background-color: #46167E;
+}
+
+.view-results-container {
+  position: sticky;
+  bottom: 10px;
+  width: calc(100% - 20px);
+  padding: 5px;
+  margin: 0;  /* Remove margins */
+}
+
+.view-results-button {
+  padding: 6px 8px;
+  /* background-image:url('/assets/BG.png'); */
+  background: linear-gradient(90deg, #820116 0%, #000742 100%);
+  background-size: cover;
+  color:white;
+  border: 1px solid #180437;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0; /* Remove margins from the button */
+  margin-left: auto; /* Or float:right if you prefer */
+  display: block; /* Make button a block element */
+  margin-top: 5px;
+  font-size: small;
+  margin-right: 50px;
+}
+
+
+
+.explore-grid-h1 {
+  padding-left: 10px !important;
+  padding-bottom: 0px;
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+
+/* Background image on hover */
+/*.grid-item:hover::after {
+  content: '';
+  position: absolute;
+  width: 150px; 
+  height: 150px;
+  background: url('/assets/BG.png') no-repeat center;
+  background-size: contain;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}*/
+
+
+.overlay {
+  position: absolute; /* Position the overlay absolutely within the grid container */
+  top: -70px;
+  left: 0;
+  width: 98%; /* Match the width of the grid container */
+  /* height: 80%; Match the height of the grid container */
+  min-height: 55vh;
+  background-color: #F0F7EE;;
+
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10; /* Ensure the overlay appears on top */
+  overflow: auto; /* Allow scrolling if content exceeds the container height */
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-top: 5px;
+  max-height: 55vh;
+}
+
+.overlay-content {
+  width: 100%; /* Match the width of the overlay */
+  /* height: 100%; Match the height of the overlay */
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+.overlay-header h2 {
+  font-size: 16px !important;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  margin-left: 15px;
+  text-wrap: nowrap;
+  color: black;
+}
+
+.overlay-logo {
+  width: 20px; /* Adjust size as needed */
+  height: auto;
+  margin-left: 0px;
+  margin-top: 0%;
+}
+.overlay-header {
+  display: flex;
+  justify-content: space-between; /* Distribute space between items */
+  align-items: center;
+  width: 100%; /* Ensure full width */
+  margin-bottom: 5px;
+  color: black;
+  margin-top: 0%;
+}
+
+.close-icon {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+  margin-left: auto; /* Push to the right */
+  order: 2; /* Ensure it stays on the right */
+  margin-top: 0%;
+}
+.close-icon:hover{
+  background-color: transparent;
+  color: #001f3f;
+}
+
+.add-button {
+  padding: 10px 20px;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-start; /* Align the button to the right */
+}
+
+.expand-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0; /* Prevent button from shrinking */
+  margin-left: 5px; /* Space between text and chevron */
+  background-color: transparent; /* Ensure background is transparent */
+  transition: background-color 0.2s ease;
+  margin-top: 10px;
+}
+.expand-btn:hover {
+  background-color: transparent; /* Keep background transparent on hover */
+  /* Add any other hover effects you want here, e.g., opacity change */
+  opacity: 0.8; /* Example: Slightly reduce opacity on hover */
+}
+.expand-btn::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #333;
+  transition: transform 0.2s ease;
+}
+
+.expand-btn.expanded::before {
+  transform: rotate(180deg);
+  border-top: none;
+  border-bottom: 5px solid #333;
+}
+
+input[type="checkbox"] {
+  width: 13px;
+  height: 13px;
+  cursor: pointer;
+  border: 1px solid #333;
+  background-color: transparent;
+}
+
+label {
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+/* Updated CSS */
+.tree-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Five equal columns */
+  gap: 50px; /* Remove the existing gap between columns */
+  width: 100%; /* Ensure the container takes up full width of its parent */
+  box-sizing: border-box; /* Ensure padding/margin doesn't affect the width calculation */
+  margin: 0 auto; /* Centers the grid within the parent container */
+  justify-items: stretch; /* Ensure all items stretch equally across the columns */
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.tree-node {
+  position: relative;
+  padding-left: 20px;
+  margin: 2px 0;
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.node-content {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+
+.nested-children {
+  position: relative;
+  margin-left: 15px;
+}
+
+.tree-children {
+  padding-left: 20px;
+  margin: 4px 0;
+}
+
+.tree-children > .tree-node::before {
+  position: absolute;
+  left: -20px;
+  top: 3px;
+  font-size: 14px;
+  color: #666;
+}
+/* Business Description Overlay Styles */
+.business-description-content {
+  text-align: left;
+  padding: 0;
+  max-width: 600px;
+  margin: 0;
+  margin-left: 0px;
+}
+
+.business-description-content * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.business-description-content > * {
+  display: block;
+  width: 100%;
+  margin-left: 30px;
+}
+
+.business-description-content p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.business-description-content input[type="text"] {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.business-description-content .logical-operators {
+  margin-bottom: 30px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.business-description-content .logical-operators label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+  gap: 0; /* Remove gap between elements */
+  padding-left: 0;
+}
+
+.business-description-content .logical-operators input[type="radio"] {
+  margin: 0;
+  padding: 0;
+  display: block; /* Ensures proper alignment */
+  width: 14px; /* Explicit width for radio button */
+  height: 14px; /* Explicit height for radio button */
+  margin-right: 8px; /* Controlled spacing after radio button */
+  color: #46167E;
+}
+.business-description-content button {
+  padding: 8px 10px;
+  font-size: 13px;
+  color: #fff;
+  background-image:url('/assets/BG.png');
+  background-size: cover;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  width: 80px; /* Fixed width */
+  margin: 0 0; /* Center the button */
+  display: block; /* Needed for margin auto to work */
+  margin-left: 35px;
+  margin-top: 20px !important;
+}
+.business-description-content button:hover {
+  background-color: #46167E;
+}
+
+/* ... other CSS ... */
+
+.intellectual-property-content {
+  display: grid; /* Use grid layout */
+  grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+  gap: 25px;
+  width: 100%;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-group label {
+  margin-bottom: 7px;
+  font-weight: bold;
+}
+
+.range-inputs {
+  display: flex;
+  gap: 10px;
+}
+
+.range-inputs input[type="text"] {
+  width: 80px; /* Slightly smaller input width */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Place the last two elements in the next row */
+.patents-expiring, .clinical-trials, .cpc-codes {
+  grid-column: span 2; /* Span 2 columns */
+}
+
+.cpc-codes { /* Specific styling for CPC codes */
+  grid-column: 1 / span 2; /* Start at the first column */
+}
+
+.intellectual-property-content{
+  margin-left: 30px;
+}
+.intellectual-property-content button {
+  grid-column: 1 / -1; /* Span all columns to be in the center */
+  margin-top: 15px;
+  padding: 8px 16px;
+  background-image:url('/assets/BG.png');
+  background-size: cover;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  justify-self: left; /* Center the button */
+  width: fit-content; /* Adjust width to fit content */
+}
+
+.financial-metrics-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 6px;
+  margin-left: 30px;
+}
+
+.financial-metrics-content .input-group {
+  grid-column: span 1;
+  width: 100%;
+}
+
+/* ... (nth-child selectors for grid layout - no changes needed) ... */
+
+.financial-metrics-content label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.range-inputs {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+}
+
+/* Style for ALL input types (text, date, range inputs) */
+.financial-metrics-content input[type="text"],
+.financial-metrics-content input[type="date"],
+.range-inputs input {
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Target inputs in the second and third rows (EBIT to Total Debt) */
+.financial-metrics-content .input-group:nth-child(n+5):nth-child(-n+10) input[type="text"],
+.financial-metrics-content .input-group:nth-child(n+5):nth-child(-n+10) .range-inputs input { /* Include range inputs here */
+  width: 300px; /* Set your desired FIXED width here */
+}
+
+/* Target the Fiscal Period input group (now the 11th element) */
+.financial-metrics-content .input-group:nth-child(11) {
+  grid-column: 1 / -1; /* Full width */
+}
+/* Target date inputs in the fourth row (Fiscal Period) */
+.financial-metrics-content .input-group:nth-child(11) input[type="date"] {
+  width: 120px; /* Smaller width for date inputs */
+}
+
+.financial-metrics-content button {
+  grid-column: 1 / -1;
+  margin-top: 0px;
+  padding: 8px 18px;
+  background-image:url('/assets/BG.png');
+  background-size: cover;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: fit-content;
+  justify-self: start;
+  margin-bottom: 30px;
+}
+
+.financial-metrics-content button:hover {
+  background-image:url('/assets/BG.png');
+  background-size: cover;
+}
+
+.financial-metrics-content hr {
+  grid-column: 1 / -1;
+  margin: 5px 0;
+  border: none;
+  border-top: 1px solid black;
+}
+body.locations {
+  margin-left: 30px;
+}
+/* ... other styles ... */
+
+.deals-and-investors-content {
+  display: flex;
+  flex-direction: column; /* Arrange elements vertically */
+  gap: 20px; /* Spacing between rows */
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.input-group-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 0px;
+}
+
+.deals-and-investors-content .input-group {
+  width: 70%; /* Ensure inputs fill their container */
+}
+
+.deals-and-investors-content label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.range-inputs {
+  display: flex;
+  gap: 10px;
+  width: 250px;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+.range-inputs input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: calc(100% - 5px); /* Adjust width for range inputs */
+  margin-bottom: 0;
+}
+hr{
+  margin-top: 0;
+}
+.deals-and-investors-content button {
+  margin-top: 10px;
+}
+.deals-and-investors-content .search-btn{
+  grid-column: 1 / -1;
+  margin-top: 0px;
+  padding: 8px 18px;
+  background-image:url('/assets/BG.png');
+  background-size: cover;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: fit-content;
+  justify-self: start;
+  margin-bottom: 30px;
+}
+/* ... other styles ... */
+
+.scrollable-table {
+  max-height: 400px;
+  /* max-width:80vw; */
+  overflow-x: scroll;
+  overflow-y: auto;
+  border: 1px solid #ddd; /* Light gray border around the table */
+  border-radius: 4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate; /* Key for cell spacing */
+  border-spacing: 0; /* No spacing between cells */
+  table-layout: fixed;
+}
+
+th,
+td {
+  padding: 10px; /* Slightly reduced padding */
+  text-align: left;
+  border: 1px solid #ddd; /* Borders on all sides of cells */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.95em; /* Slightly smaller font */
+}
+
+th {
+  background-color: #f8f9fa;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  font-weight: 600;
+  border-bottom: 2px solid #ccc; /* Slightly thicker bottom border for header */
+}
+
+/* Alternating row colors */
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Very light gray */
+}
+
+/* Hover effect on rows */
+tbody tr:hover {
+  background-color: #f2f2f2; /* Slightly darker hover color */
+}
+
+/* ... (rest of your CSS - results-section, etc.) */
+
+.back-button {
+  /* ... other styles ... */
+  padding: 6px 12px;
+  font-size: 0.9em;
+  border: none; /* Removed border */
+  background: none; /* Make the button background transparent */
+  cursor: pointer; /* Make it clear it's clickable */
+}
+
+
+.section-nav-link {
+    cursor: pointer; /* Indicate it's clickable */
+    padding: 5px 10px; /* Add some padding */
+    border-radius: 4px; /* Optional: Rounded corners */
+}
+
+.section-nav-link.active {
+    background-color: #eee; /* Or any other styling you prefer */
+    font-weight: bold;
+    color: #180437;
+}
+.section-nav-link h3{
+    margin:0
+}
+
+.sections-list {
+  padding: 15px;
+}
+
+.section-group {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  color: whitesmoke;
+  font-size: 1rem;
+  margin: 10px 0;
+  padding: 8px;
+  background:transparent;
+  border-radius: 4px;
+}
+
+.subitems-list {
+  margin-left: 15px;
+  border-left: 2px solid #dee2e6;
+  padding-left: 10px;
+}
+
+.subitem {
+  padding: 8px;
+  margin: 4px 0;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s;
+  font-size: 0.9em;
+  color: whitesmoke;
+}
+
+.subitem:hover {
+  background: #e9ecef;
+  color: #2c3e50;
+}
+
+.subitem.active {
+  background: #dee2e6;
+  font-weight: 500;
+}
+
+.column-highlight {
+  background-color: #b1d8fa !important;
+  transition: background-color 0.2s;
+  color:#001f3f !important
+}
+.section-nav-item {
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.section-nav-item:hover {
+  background: transparent;
+}
+
+.section-nav-item.active {
+  background:transparent;
+  /* border-left: 4px solid #007bff; */
+}
+
+.section-nav-item h3 {
+  margin: 0 0 8px 0;
+  font-size: 1rem;
+  color:whitesmoke;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.colors { 
+
+color: #FFC107;
+color: #FFD700;
+color: #FFB800;
+  
+  
+color: #00BCD4;
+color: #00E5FF;
+color: #29ABE2;
+  
+color: #FF4F81;
+color: #E91E63;
+color: #F06292;
+  
+  
+color: #C0C0C0;
+color: #E0E0E0;
+  
+  
+color: #FFFFFF;
+color: #F5F5F5;
+}
