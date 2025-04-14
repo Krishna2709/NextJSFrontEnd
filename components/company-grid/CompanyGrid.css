@@ -1,0 +1,99 @@
+/* Cursor Grab Effect */
+.company-grid-item {
+    cursor: grab;
+}
+
+/* Effect when active (clicked) */
+.company-grid-item:active {
+    cursor: grabbing;
+    transform: scale(1) translateX(2px);
+
+    border: 2px solid lightblue;
+}
+
+/* Grid of seven boxes */
+.company-grid-item {
+    background-color: #F0F7EE;
+    ;
+    color: black;
+    padding: 15px 10px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* Ensures content is stacked vertically */
+    font-size: 18px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    height: 350px
+}
+
+/* Title styling */
+.company-grid-title {
+    font-size: 18px;
+    font-weight: 400;
+    /* font-weight: bold; */
+    margin-bottom: 30px;
+    /* Space below title */
+    display: block;
+    /* Ensures it's a separate block */
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    text-align: center;
+}
+
+/* Icon styling */
+.company-grid-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    /* Space below icon */
+    display: block;
+    /* Ensures it stacks properly */
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    margin-left: 30%;
+}
+
+/* Image container styling */
+.company-grid-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* Ensure the container takes full width */
+}
+
+/* Image styling */
+.company-grid-img {
+    width: 70px;
+    /* Fixed width */
+    height: 70px;
+    /* Fixed height */
+    object-fit: cover;
+    /* Crop the image to fit the fixed dimensions */
+    display: block;
+    margin: 0 auto;
+    /* Center the image horizontally */
+    display: block;
+}
+
+
+/* Hide title, icon, and image on hover */
+.company-grid-item:hover .company-grid-title,
+.company-grid-item:hover .company-grid-icon,
+.company-grid-item:hover .company-grid-img {
+    opacity: 1;
+}
+
+/* Hover effect */
+.company-grid-item:hover {
+    transform: scale(1.05);
+    background-color: transparent;
+    box-shadow: 0 0 20px blue;
+    background: transparent;
+}

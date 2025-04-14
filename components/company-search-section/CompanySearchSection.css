@@ -1,0 +1,10 @@
+.company-search-section-container {
+    background-image: url('/assets/BG_old.png');
+    background-size: cover;
+    color: #ffffff;
+}
+
+.search-section {
+    background: #ffffff;
+    color: #000000;
+}

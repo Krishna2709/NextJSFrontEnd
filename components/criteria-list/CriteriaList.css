@@ -1,0 +1,134 @@
+.criteria-list-container {
+    height: 150px;
+    /* Fixed height */
+    overflow-y: auto;
+    /* Enable vertical scroll */
+    padding-right: 15px;
+    /* Space for scrollbar */
+}
+
+.criteria-list {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    /* 3px spacing between rows */
+    max-height: 100%;
+    /* Ensure it doesn't exceed the parent container */
+    overflow-y: auto;
+    /* Enable vertical scrolling inside */
+    padding-right: 15px;
+    /* Prevent overlap with scrollbar */
+
+}
+
+.criteria-item {
+    padding: 4px;
+    display: grid;
+    font-weight: 400;
+    grid-template-columns: 20px auto 60px 60px 60px;
+    /* Adjust column widths as needed */
+    align-items: center;
+    gap: 2px;
+    /* 3px spacing between columns */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex-shrink: 0;
+    /* Prevent items from shrinking */
+}
+
+.criteria-number {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.criteria-name {
+    font-size: 13px;
+    color: #333;
+    white-space: nowrap;
+    /* Prevent text from wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Add ellipsis for overflow text */
+}
+
+.criteria-count {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding-right: 5px 5px;
+    /* background-image:url('/assets/BG.png'); */
+    background: #781223;
+    /* background: linear-gradient(90deg, #8e0f24 0%, #0a1047 100%); */
+    background-size: cover;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.criteria-item button {
+    padding: 5px 5px;
+    font-size: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 3px;
+    /* 3px spacing between buttons */
+}
+
+.criteria-item button:first-of-type {
+    /* background-color: #46167E; Edit button color */
+    background: linear-gradient(90deg, #530915 0%, #0e1675 100%);
+    background-size: cover;
+
+    color: white;
+    /* margin-top: 10px; */
+}
+
+.criteria-item button:last-of-type {
+    /* background-color: #dc3545; Clear button color */
+    background: linear-gradient(90deg, #530915 0%, #172086 0%);
+    background-size: cover;
+    color: white;
+    /* margin-top: 10px; */
+    /* margin-right: 5px; */
+}
+
+/* Hide the default scrollbar */
+.criteria-list-container {
+    scrollbar-width: none;
+    /* For Firefox */
+    -ms-overflow-style: none;
+    /* For IE/Edge */
+    position: relative;
+    /* Needed for absolute positioning of arrows */
+}
+
+/* Custom Scrollbar for WebKit Browsers (Chrome, Safari) */
+.criteria-list-container::-webkit-scrollbar {
+    width: 10px;
+    /* Adjust width */
+    background: transparent;
+    /* Make it blend with the background */
+}
+
+/* Scrollbar Thumb */
+.criteria-list-container::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #330d50, #8b1dc3);
+    /* Dark purple gradient */
+    border-radius: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Hover effect on Thumb */
+.criteria-list-container::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #4e006f, #b97fdc);
+    /* Brighter hover effect */
+}
+
+/* Scrollbar Track */
+.criteria-list-container::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.2);
+    /* Light transparent track */
+    border-radius: 10px;
+}
