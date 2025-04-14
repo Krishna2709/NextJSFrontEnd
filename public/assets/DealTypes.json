@@ -1,0 +1,182 @@
+{
+    "Venture Capital": {
+      "All VC Stages": {
+        "Pre/Accelerator/Incubator": {
+          "Product Crowdfunding": {},
+          "Equity Crowdfunding": {},
+          "Accelerator/Incubator": {}
+        },
+        "Angel": {
+          "Series A": {},
+          "Series B": {},
+          "Series C": {},
+          "Series D": {},
+          "Series E": {},
+          "Series F": {},
+          "Series G": {},
+          "Series H": {},
+          "Series I": {},
+          "Series J": {},
+          "Series K": {},
+          "Series 1": {},
+          "Series 2": {},
+          "Series 3": {},
+          "Series not disclosed": {},
+          "Capitalization": {}
+        },
+        "Seed": {},
+        "Early stage VC": {
+          "Series A": {},
+          "Series B": {},
+          "Series 1": {},
+          "Series 2": {},
+          "Series 3": {},
+          "Series not disclosed": {}
+        },
+        "Later stage VC": {
+          "Series A": {},
+          "Series B": {},
+          "Series C": {},
+          "Series D": {},
+          "Series E": {},
+          "Series F": {},
+          "Series G": {},
+          "Series H": {},
+          "Series I": {},
+          "Series J": {},
+          "Series K": {},
+          "Series 1": {},
+          "Series 2": {},
+          "Series 3": {},
+          "Series not disclosed": {}
+        },
+        "Other Stages": {
+          "All Round Numbers": {
+            "Round 1": {},
+            "Round 2": {},
+            "Round 3": {}
+          },
+          "Later rounds": {
+            "Round 4": {},
+            "Round 5": {},
+            "Round 6": {},
+            "Round 7": {},
+            "Round 8": {},
+            "Round 9": {},
+            "Round 10 and more": {}
+          }
+        },
+        "All Series": {
+          "Seed": {},
+          "Series A": {},
+          "Series B": {},
+          "Series C": {},
+          "Series D": {},
+          "Later series": {
+            "Series 1": {},
+            "Series 2": {},
+            "Series 3": {},
+            "Series E": {},
+            "Series F": {},
+            "Series G": {},
+            "Series H": {},
+            "Series I": {},
+            "Series J": {},
+            "Series K": {}
+          }
+        }
+      }
+    },
+    "Corp/ Strategic M&A": {
+    "M&A/Control Transactions": {
+      "M&A": {},
+      "Merger of equals": {},
+      "Reverse merger": {}
+    },
+    "Non-Control Transactions": {
+      "Corporate": {},
+      "Restart corporate": {}
+    },
+    "Other M&A Transactions": {
+      "Joint Venture": {}
+    }
+  },
+  "Debt": {
+    "All General Debt": {
+      "Debt - General": {},
+      "Convertible Debt": {},
+      "Debt Repayment": {}
+    },
+    "Refinancing": {
+      "Bank Debt": {},
+      "Bonds": {},
+      "Other Refinancing": {}
+    },
+    "Recapitalization": {
+      "Leveraged Recapitalization": {},
+      "Other Recapitalization": {}
+    },
+    "Acquisition Financing": {
+      "Debt - Acquisition": {},
+      "Debt - Merger": {},
+      "Debt - Spinoff": {}
+    },
+    "Other Debt Transactions": {
+      "General Corporate Purpose": {},
+      "Capital Spending": {},
+      "Project Financing": {},
+      "Working Capital": {}
+    }
+  },
+  "Private Equity": {
+    "All Buyout Types": {
+      "Buyout/LBO": {},
+      "Management buyout": {},
+      "Management buy-In": {},
+      "Add-on": {},
+      "Secondary buyout": {},
+      "Public to private": {},
+      "Privatization": {},
+      "Corporate divestiture": {},
+      "Other": {}
+    },
+    "Other Private Equity Types": {
+      "Growth/Expansion": {},
+      "PIPE": {},
+      "Investor buyout by mgt.": {},
+      "GP Stakes": {}
+    }
+  },
+  "Private Equity": {
+    "Public Investments": {
+      "IPO": {},
+      "Secondary offering": {}
+    },
+    "Liquidity": {
+      "Share repurchase": {},
+      "Dividend": {}
+    },
+    "Distress": {
+      "Bankruptcy": {
+        "Liquidation": {},
+        "Admin/Reorg": {}
+      },
+      "Debt Conversion": {},
+      "Debtor-In-Possession": {},
+      "Exit Financing": {},
+      "Out of Business": {}
+    }
+  },
+  "Other Options": {
+    "Asset acquisition": {},
+    "Asset divestiture (corp)": {},
+    "Corporate divestiture": {},
+    "Secondary transaction": {
+      "Open market": {},
+      "Private": {}
+    },
+    "Spin-Off": {},
+    "University Spin-Out": {}
+  }
+}
+  

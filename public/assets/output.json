@@ -1,0 +1,152 @@
+{
+    "Health Care": {
+        "Health Care Equipment and Services": {
+            "Health Care Equipment and Supplies": {},
+            "Health Care Providers and Services": {},
+            "Health Care Technology": {}
+        },
+        "Pharmaceuticals, Biotechnology and Life Sciences": {
+            "Biotechnology": {},
+            "Pharmaceuticals": {},
+            "Life Sciences Tools and Services": {}
+        }
+    },
+    "Information Technology": {
+        "Software and Services": {
+            "IT Services": {},
+            "Software": {}
+        },
+        "Technology Hardware and Equipment": {
+            "Communications Equipment": {},
+            "Technology Hardware, Storage and Peripherals": {},
+            "Electronic Equipment, Instruments and Components": {}
+        },
+        "Semiconductors and Semiconductor Equipment": {
+            "Semiconductors and Semiconductor Equipment": {}
+        }
+    },
+
+    "Financials": {
+        "Banks": {
+            "Banks": {}
+        },
+        "Financial Services": {
+            "Financial Services": {},
+            "Consumer Finance": {},
+            "Capital Markets": {},
+            "Mortgage Real Estate Investment Trusts (REITs)": {}
+        },
+        "Insurance": {
+            "Insurance": {}
+        }
+    },
+    "Real Estate": {
+        "Equity Real Estate Investment Trusts (REITs)": {
+            "Diversified REITs": {},
+            "Industrial REITs": {},
+            "Hotel and Resort REITs": {},
+            "Office REITs": {},
+            "Health Care REITs": {},
+            "Residential REITs": {},
+            "Retail REITs": {},
+            "Specialized REITs": {}
+        },
+        "Real Estate Management and Development": {
+            "Real Estate Management and Development": {}
+        }
+    },
+    "Communication Services": {
+        "Telecommunication Services": {
+            "Diversified Telecommunication Services": {},
+            "Wireless Telecommunication Services": {}
+        },
+        "Media and Entertainment": {
+            "Media": {},
+            "Entertainment": {},
+            "Interactive Media and Services": {}
+        }
+    },
+    "Industrials": {
+        "Capital Goods": {
+            "Aerospace and Defense": {},
+            "Building Products": {},
+            "Construction and Engineering": {},
+            "Electrical Equipment": {},
+            "Industrial Conglomerates": {},
+            "Machinery": {},
+            "Trading Companies and Distributors": {}
+        },
+        "Commercial and Professional Services": {
+            "Commercial Services and Supplies": {},
+            "Professional Services": {}
+        },
+        "Transportation": {
+            "Air Freight and Logistics": {},
+            "Passenger Airlines": {},
+            "Marine Transportation": {},
+            "Ground Transportation": {},
+            "Transportation Infrastructure": {}
+        }
+    },
+    "Consumer Staples": {
+        "Consumer Staples Distribution and Retail": {
+            "Consumer Staples Distribution and Retail": {}
+        },
+        "Food, Beverage and Tobacco": {
+            "Beverages": {},
+            "Food Products": {},
+            "Tobacco": {}
+        },
+        "Household and Personal Products": {
+            "Household Products": {},
+            "Personal Care Products": {}
+        }
+    },
+    "Consumer Discretionary": {
+        "Automobiles and Components": {
+            "Automobile Components": {},
+            "Automobiles": {}
+        },
+        "Consumer Durables and Apparel": {
+            "Household Durables": {},
+            "Leisure Products": {},
+            "Textiles, Apparel and Luxury Goods": {}
+        },
+        "Consumer Services": {
+            "Hotels, Restaurants and Leisure": {},
+            "Diversified Consumer Services": {}
+        },
+        "Consumer Discretionary Distribution and Retail": {
+            "Distributors": {},
+            "Broadline Retail": {},
+            "Specialty Retail": {}
+        }
+    },
+    "Utilities": {
+        "Utilities": {
+            "Electric Utilities": {},
+            "Gas Utilities": {},
+            "Multi-Utilities": {},
+            "Water Utilities": {},
+            "Independent Power and Renewable Electricity Producers": {}
+        }
+    },
+    "Energy":  {
+            "Energy Equipment and Services": {},
+            "Oil, Gas and Consumable Fuels": {}
+        
+    },
+    "Materials": {
+        
+            "Chemicals": {},
+            "Construction Materials": {},
+            "Containers and Packaging": {},
+            "Metals and Mining": {},
+            "Paper and Forest Products": {}
+        
+    }
+   
+   
+   
+  
+}

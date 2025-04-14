@@ -1,0 +1,31 @@
+{
+  "Business Cycle": {
+    "Profitable": {},
+    "Generating Revenue/Not Profitable": {},
+    "Product Development": {},
+    "Bankruptcy": {},
+    "Stealth": {},
+    "Startup": {}
+  },
+  "Ownership Status": {
+    "All Ownership Statuses": {
+      "Privately Held (Backing)": {},
+      "Privately Held (No Backing)": {},
+      "In IPO Registration": {},
+      "Publicly Held": {},
+      "Acquired/Merged": {},
+      "Acquired/Merged (Operating Subsidiary)": {},
+      "Out of Business": {}
+    }
+  },
+  "Financial Backing Status": {
+    "All Backing Statuses": {
+      "PE-Backed": {},
+      "VC-Backed": {},
+      "Accelerator/Incubator-Backed": {},
+      "Angel-Backed": {},
+      "Private Debt Financed": {},
+      "Corporate-Backed/Acquired": {}
+    }
+  }
+}
